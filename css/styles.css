@@ -74,8 +74,9 @@ img {
 }
 
 .logo {
-  display: block;
+  
   padding: 24px 0;
+  margin: 0;
   text-align: center;
   font-family: 'Raleway';
   font-weight: 700;
@@ -100,6 +101,7 @@ img {
 
 .blue-logo {
   color: var(--select-color);
+  margin: 0;
 }
 
 .header-link.current-page {
@@ -417,7 +419,7 @@ img {
   background-color: rgba(47, 48, 58, 0.8);
   width: 370px;
   height: 70px;
-  position: absolute;
+  
 
   bottom: 0;
   font-weight: 700;
@@ -604,14 +606,15 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
 
-  font-style: normal;
-  color: var(--white-text-color);
-  text-decoration: none;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 .address-link {
   text-decoration: none;
   color: inherit;
+  font-style: normal;
+  color: var(--white-text-color);
+  text-decoration: none;
+  transition: color 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address-link:hover,
 .address-link:focus {
