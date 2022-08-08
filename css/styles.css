@@ -593,7 +593,7 @@ img {
 .regular-clients-icon {
   display: inline-flex;
   fill: var(--icon-color);
-  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .regular-clients-link:hover .regular-clients-icon,
 .regular-clients-link:focus .regular-clients-icon {
@@ -718,7 +718,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: bacground-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .join-us-icon {
